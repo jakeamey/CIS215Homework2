@@ -1,4 +1,7 @@
 <?php
+//CSNLinux Link sftp://jamey@csnlinux.genesee.edu/home/jamey/public_html/GitHub/CIS215Homework2
+
+<?php
 echo "<!DOCTYPE html>
 <html lang='en'>
 <head>
