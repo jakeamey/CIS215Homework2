@@ -1,1 +1,12 @@
-# This is your HTML/PHP file. Delete this comment, and then get started according to the instructions!
+<?php
+echo "<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Time Based Output</title>
+</head>
+<body>
+</body>
+</html>";
+?>
