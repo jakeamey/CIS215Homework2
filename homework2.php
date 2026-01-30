@@ -1,1 +1,3 @@
-# This is your HTML/PHP file. Delete this comment, and then get started according to the instructions!
+<?php
+//set timezone
+date_default_timezone_set('America/New_York');
