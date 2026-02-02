@@ -1,4 +1,11 @@
 <?php
+
+
+
+
+?>
+
+<?php
 //set timezone
 date_default_timezone_set('America/New_York');
 
@@ -13,3 +20,4 @@ if ($currenthour >= 5 && $currenthour < 12) {
 } else {
     $greeting = "Good Evening!";
 }   
+?>
