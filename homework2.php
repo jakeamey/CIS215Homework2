@@ -15,9 +15,11 @@ echo "
 </head>
 <body>
 ";
+
 //Display php greeting as html heading    
 echo
 "<h1>$greeting</h1>";
+
 //Close HTML
 echo 
 "</body>
@@ -28,16 +30,20 @@ echo
 <?php
 //set timezone
 date_default_timezone_set('America/New_York');
+
 //get current date and time
 $currenthour = (int)date('H'); 
+
 //determine greeting based on current hour
 if ($currenthour >= 5 && $currenthour < 12) {
     $greeting = "Good Morning!";
     //If the time is less than noon, display Good Morning
-} elseif ($currenthour >= 12 && $currenthour < 18) {
+
+    } elseif ($currenthour >= 12 && $currenthour < 18) {
     $greeting = "Good Afternoon!";
     //If the time is greater than or equal to noon and less than 6, display Good Afternoon
-} else {
+
+    } else {
     $greeting = "Good Evening!";
     //If the time is anything other than the 2 above, display Good Evening
 }   
