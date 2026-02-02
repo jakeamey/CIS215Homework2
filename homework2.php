@@ -1,4 +1,9 @@
 <?php
+//Author: Jacob Amey
+//CIS 215: Homework 2
+//02/01/2025
+
+
 //Add HTML boilerplate
 echo "
 <!DOCTYPE html>
