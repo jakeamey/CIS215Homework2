@@ -2,6 +2,7 @@
 //Author: Jacob Amey
 //CIS 215: Homework 2
 //02/01/2025
+//jamey@csnlinux.genesee.edu/home/jamey/public_html/CIS215Homework2/homework2.php
 
 
 //Add HTML boilerplate
